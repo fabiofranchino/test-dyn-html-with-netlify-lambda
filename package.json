@@ -1,0 +1,20 @@
+{
+  "name": "Netlify-Dyn-HTML-Card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:lambda": "netlify-lambda serve src/functions",
+    "build:lambda": "netlify-lambda build src/functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^2.0.13"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
